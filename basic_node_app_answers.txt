@@ -1,0 +1,11 @@
+1. What is a Node module?
+
+A: A Node module is an object that can hold methods and properties and can be exported/imported to other files where the module's properties and methods can be accessed and implemented. 
+
+2. What is the main difference between exports and module.exports?
+
+A: 'module.exports' gets returned from require() calls, whereas 'exports' is not returned. 
+
+3. Why is using exports recommended?
+
+A: Exports is recommended because the module being referenced does not have to be a specific object type. 
